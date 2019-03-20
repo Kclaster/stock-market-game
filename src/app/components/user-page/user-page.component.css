@@ -1,0 +1,78 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  background: grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.user-body {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trade-market {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.trade {
+  width: 25%;
+  height: 350px;
+  border: 1px solid grey;
+}
+
+h2 {
+  text-align: center;
+}
+
+.news {
+  width: 65%;
+  height: 350px;
+  border: 1px solid grey;
+}
+
+.submit-btn {
+  margin: 10px 0 0 8px;
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: grey;
+  color: white;
+}
+
+.portfolio {
+  width: 93.5vw;
+  justify-self: center;
+  height: 200px;
+  border: 1px solid grey;
+  margin: 30px;
+}
+
+.research {
+  margin: 0 57px 8px 0;
+}
+
+#research-label {
+  margin-right: 10px;
+}
+
+.trade-input {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}

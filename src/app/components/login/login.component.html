@@ -1,0 +1,16 @@
+<img [src]="background" alt="" />
+<h1>Fifteen</h1>
+<h2>An all encompassing investment game, where 15 days equals 15 years.</h2>
+<div class="login">
+  <form (submit)="login($event)" action="submit">
+    <div class="username">
+      <label for="username">Username:</label>
+      <input type="text" />
+    </div>
+    <div class="password">
+      <label for="password">Password:</label>
+      <input password type="text" />
+    </div>
+    <input class="btn btn-primary" type="submit" value="Login" />
+  </form>
+</div>

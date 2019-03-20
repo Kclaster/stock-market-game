@@ -1,0 +1,59 @@
+img {
+  width: 100vw;
+  z-index: 1;
+}
+
+.login {
+  position: absolute;
+  border: 1px solid white;
+  padding: 20px 42px 30px 70px;
+  top: 40vh;
+  left: 10vw;
+  z-index: 2;
+}
+
+.username {
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+}
+
+.username,
+.password {
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  left: 10vw;
+}
+
+h1 {
+  top: 20vh;
+}
+
+h2 {
+  top: 27vh;
+}
+
+.btn {
+  background: white;
+  font-size: 1.1em;
+  padding: 5px 12px;
+  align-self: center;
+  width: 90px;
+  margin-top: 20px;
+}
